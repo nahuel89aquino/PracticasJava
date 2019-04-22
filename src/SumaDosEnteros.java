@@ -6,7 +6,7 @@ public class SumaDosEnteros {
 	public static void main(String[] args) {
 		// crea el objeto Scanner para obtener la entrada de la ventana de comandos
 		Scanner entrada = new Scanner(System.in); 
-		
+		System.out.println("Programa para sumar dos enteros");
 		int num1; //primer numero a sumar
 		int num2; // segundo numero a sumar
 		int suma; // suma de num1 y num2
@@ -18,7 +18,7 @@ public class SumaDosEnteros {
 		
 		suma = num1 + num2; // suma los numero enteros y los almacena en suma
 		
-		System.out.printf("La suma de %d y %d es %d", num1, num2, suma); // muestra la suma
+		System.out.printf("La suma de %d y %d es %d\n\n", num1, num2, suma); // muestra la suma
 		
 		entrada.close();
 	}// fin del metodo main
